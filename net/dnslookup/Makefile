@@ -5,12 +5,12 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=dnslookup
-PKG_VERSION:=1.7.0
+PKG_VERSION:=1.7.3
 PKG_RELEASE:=$(AUTORELEASE)
 
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.gz
 PKG_SOURCE_URL:=https://codeload.github.com/ameshkov/dnslookup/tar.gz/v$(PKG_VERSION)?
-PKG_HASH:=1be8fa1b4d8e3b442dbfba9f463292e81b3c3fbd9a0cf3918a553b46a5014046
+PKG_HASH:=c63d2dc8c357045e28f29ec716e3c20e39a2c1be4dc4313c6c2ab62838e5e2db
 
 PKG_MAINTAINER:=Tianling Shen <cnsztl@immortalwrt.org>
 PKG_LICENSE:=MIT
